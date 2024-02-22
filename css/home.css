@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: black;
+    
+}
+.nav h1{
+    display: inline;
+    position: relative;
+    right: 200px;
+    color: white;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items li{
+    text-decoration: none;
+    display: flex;
+    margin: 20PX 15px;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
